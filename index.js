@@ -19,8 +19,8 @@ app.get('/',(req,res)=>{
 })
 
 
-//const port = process.env.PORT;
-const port = 8080;
+const port = process.env.PORT;
+//const port = 8080;
 app.listen(port,(err,resp)=>{
     if(err)console.log(err);
     else{
